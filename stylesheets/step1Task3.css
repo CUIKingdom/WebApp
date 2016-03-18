@@ -1,0 +1,118 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 12px;
+}
+
+img{
+	border: none;
+}
+
+li{
+	list-style: none;
+}
+
+input,select,textarea{
+	outline: none;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+	color: #656565;
+}
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+
+.wrap{
+    background-color: #eee;
+
+
+}
+.left{
+    width:200px;
+    float:left;
+
+    background-color:#fff;
+    margin-left: 20px;
+}
+.mid{
+    background-color:#fff;
+    margin: 0 200px 0 300px;
+
+
+}
+.right{
+
+    margin-left: 20px;
+    background-color:#fff;
+    float:right;
+
+    width: 120px;
+}
+
+div{
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.logo{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background:url("../images/logo.gif");
+    float: left;
+    margin-right: 25px;
+    padding: 0;
+    border-radius: 15px;
+
+}
+
+.member{
+    height: 80px;
+    width: 80px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+
+}
+
+.one{
+    background: url(../images/1.jpg);
+    padding: 0px;
+
+}
+
+
+.two{
+    background: url(../images/2.gif);
+    padding: 0px;
+}
+
+.three{
+    background: url(../images/3.gif);
+    padding: 0px;
+}
+
+.four{
+    background: url(../images/4.gif);
+    padding: 0px;
+}
+
+.five{
+    background: url(../images/5.gif);
+    padding: 0px;
+}
