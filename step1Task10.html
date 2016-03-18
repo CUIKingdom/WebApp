@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task10</title>
+	
+</head>
+<style type="text/css">
+	.footer{
+		display: flex;
+		flew-wrap:nowrap;
+		padding: 20px;
+		border: 1px solid black;
+		align-items:center;
+		justify-content: space-between;
+		
+	}
+
+	.footer div{
+		width: 150px;
+		border: 1px solid red;
+	}
+
+	.one{
+		height: 120px;
+	}
+	.two{
+		height: 100px;
+		
+	}
+	.three{
+		height: 40px;
+		
+	}
+	.footer div.four{
+		height: 200px;
+		border: 1px solid blue;
+
+	}
+
+	@media screen and (max-width: 640px){
+		.footer{
+			align-items:flex-start;
+			flex-wrap:wrap;
+		}
+
+		.four{
+			order:-1;
+		}
+	}
+</style>
+<body>
+	<div class="footer">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+		<div class="four"></div>
+	</div>
+</body>
+</html>
